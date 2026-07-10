@@ -1,14 +1,22 @@
+# Julia
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+/.julia/
+deps/deps.jl
+docs/build/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives / binaries
 *.tar
 *.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
 *.zip
 *.tgz
+*.exe
 *.log
-*.log.*
-*.sig
-
-pkg/
-src/
